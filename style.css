@@ -164,6 +164,10 @@ label > input {
   background-color: #33b6e6;
   color: white;
 }
+#number-container.dark > .selected {
+  background-color: #82cce7;
+  color: white;
+}
 
 #stats {
   display: flex;
