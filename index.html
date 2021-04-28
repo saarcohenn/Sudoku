@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Sudoku</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="index.js"></script>
+</head>
+
+<body class="">
+    <header class="header">
+        <div class="nav">
+            <div class="nav-left">
+                <h2 class="title">Sudoku</h2>
+            </div>
+            <div class="nav-right">
+                <p class="subtitle">&copy; Copyright reserved to Saar Cohen</p>
+            </div>
+        </div>
+    </header>
+    <section class="hero">
+        <h1>Let's Play Sudoku</h1>
+        <div class="setup">
+            <div id="diff">
+                <h3>Select Difficulty: </h3>
+                <label><input id="diff-1" type="radio" name="diff" value="easy" checked>Easy</label>
+                <label><input id="diff-2" type="radio" name="diff" value="medium">Medium</label>
+                <label><input id="diff-3" type="radio" name="diff" value="hard">Hard</label>
+            </div>
+            <div id="theme">
+                <h3>Choose Theme: </h3>
+                <label><input id="theme-1" type="radio" name="theme" value="light" checked>Light</label>
+                <label><input id="theme-2" type="radio" name="theme" value="dark">Dark</label>
+            </div>
+        </div>
+        <button id="start-btn">Start Game</button>
+    </section>
+    <div class="main">
+        <div id="stats">
+            <p id="timer"></p>
+            <p id="lives"></p>
+        </div>
+        <div id="number-container" class="hidden">
+            <p class="one selected">1</p>
+            <p class="two">2</p>
+            <p class="three">3</p>
+            <p class="four">4</p>
+            <p class="five">5</p>
+            <p class="six">6</p>
+            <p class="seven">7</p>
+            <p class="eight">8</p>
+            <p class="nine">9</p>
+        </div>
+        <div id="board"></div>
+    </div>
+    <footer class="footer">
+        <p>&copy; Copyright reserved to Saar Cohen</p>
+    </footer>
+</body>
+
+</html>
